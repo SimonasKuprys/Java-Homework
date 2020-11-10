@@ -1,5 +1,3 @@
-package main.java;
-
 public class Demo {
     public static void main(String[] args) {
         int[] moduleMass = {50200, 50204, 50250, 51639, 51898, 52873, 53057, 53595, 53965, 56280, 61024, 65123, 66332, 67987, 70417, 72688, 73140, 73658, 74299, 74819, 75185,
