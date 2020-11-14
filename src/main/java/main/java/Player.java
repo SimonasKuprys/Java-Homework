@@ -36,5 +36,48 @@ public class Player {
         private int threePointAccuracy;
         private int rebounds;
 
+        public gameStats(int fouls, int threePointScores, int twoPointScores, int threePointShots, int twoPointShots, int twoPointAccuracy, int threePointAccuracy, int rebounds) {
+            this.fouls = fouls;
+            this.threePointScores = threePointScores;
+            this.twoPointScores = twoPointScores;
+            this.threePointShots = threePointShots;
+            this.twoPointShots = twoPointShots;
+            this.twoPointAccuracy = twoPointAccuracy;
+            this.threePointAccuracy = threePointAccuracy;
+            this.rebounds = rebounds;
+        }
+
+        public int getFouls() {
+            return fouls;
+        }
+
+        public int getThreePointScores() {
+            return threePointScores;
+        }
+
+        public int getTwoPointScores() {
+            return twoPointScores;
+        }
+
+        public int getThreePointShots() {
+            return threePointShots;
+        }
+
+        public int getTwoPointShots() {
+            return twoPointShots;
+        }
+
+        public int getTwoPointAccuracy() {
+            return twoPointAccuracy;
+        }
+
+        public int getThreePointAccuracy() {
+            return threePointAccuracy;
+        }
+
+        public int getRebounds() {
+            return rebounds;
+        }
     }
+
 }
