@@ -19,14 +19,14 @@ public class Game {
         this.awayScore = awayScore;
     }
 
-    public static Team getWinner() {
+    public static String getWinner(Game game) {
         if (homeScore > awayScore) {
             System.out.println("Team " + home + " won!");
         } else if (awayScore > homeScore) {
             System.out.println("Team " + away + " von!");
         } else
-            System.out.println("Draw");
-        return getWinner();
+            System.out.println("Draw.");
+        return "Draw.";
     }
 
     public Team getHome() {

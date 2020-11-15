@@ -2,19 +2,19 @@ package main.java;
 
 public class Player {
 
-    private Human player;
+    private Human human;
     private int playerNumber;
     private String position;
 
-    public Player(Human player, int playerNumber, String position) {
-        this.player = player;
+    public Player(Human human, int playerNumber, String position) {
+        this.human = human;
         this.playerNumber = playerNumber;
         this.position = position;
 
     }
 
-    public Human getPlayer() {
-        return player;
+    public Human getHuman() {
+        return human;
     }
 
     public int getPlayerNumber() {

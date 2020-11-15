@@ -1,13 +1,13 @@
 package main.java;
 
 public class Coach {
-    private Human human;
+    private Human coach;
 
     public Coach(Human human) {
-        this.human = human;
+        this.coach = human;
     }
 
     public Human getHuman() {
-        return human;
+        return coach;
     }
 }
