@@ -9,8 +9,5 @@
         <module name="Java-Homework" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Java-Homework" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
