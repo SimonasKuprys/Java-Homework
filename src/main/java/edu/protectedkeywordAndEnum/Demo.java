@@ -4,15 +4,20 @@ import java.util.Scanner;
 
 public class Demo {
     public static void run(){
-        System.out.println("------Demo protectedkeywordAndEnum------");
 
-        Teacher teacher = new Teacher("ka", Gender.FEMALE);
-        teacher.name = "";
-
-        demoConversion();
+        Car car1 = new Car("audi", "a4", FuealType.DIESEL);
+        System.out.println(car1.toString());
 
 
-        System.out.println("------Demo protectedkeywordAndEnum------");
+//        System.out.println("------Demo protectedkeywordAndEnum------");
+//
+//        Teacher teacher = new Teacher("ka", Gender.FEMALE);
+//        teacher.name = "";
+//
+//        demoConversion();
+//
+//
+//        System.out.println("------Demo protectedkeywordAndEnum------");
     }
 
     private static void demoConversion() {
